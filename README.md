@@ -1,3 +1,3 @@
 # cafe-gladiator
 
-cafe.png
+![Cafe](https://github.com/QuaDref/cafe-gladiator/blob/master/image/cafe.png)
