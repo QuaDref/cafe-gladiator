@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+html, .typo {
+    color: #333;
+    font-size: 14px;
+    }
+
+
+.typo a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px
+}
+
+.page {
+    border: 1px #eaeaea solid;
+
+    min-width: 480px;
+    }
+
+.header {
+    display: table;
+
+    width: 100%;
+
+    height: 75px;
+
+    border-bottom: 1px #eaeaea solid;
+    }
+
+.header-logo {
+    display: table-cell;
+
+    font: 0/0 a;
+
+    padding-left: 13px;
+    width: 217px;
+    }
+
+.logo {
+    display: inline-block;
+    }
+
+.logo-yandex {
+    height: 30px;
+    width: 76px;
+    margin-right: 6px;
+
+    background: url(img/yandex.svg);
+
+    /* Визуально */
+    background-position-y: -15px;
+    background-size: 108%;
+    }
+
+.logo-sprav {
+    height: 30px;
+    width: 115px;
+
+    background: url(img/sprav.png);
+    background-size: cover;
+    }
+
+.header-login {
+    display: table-cell;
+
+    vertical-align: middle;
+    text-align: right;
+    }
+
+.avatar {
+    display: inline-block;
+
+    border: 1px solid white;
+    border-radius: 100%;
+
+    overflow: hidden;
+    }
+
+.avatar,
+.avatar > img {
+    width: 42px;
+    height: 42px;
+    }
+
+    .header-section {
+    display: table-cell;
+
+    height: 30px;
+
+    vertical-align: middle;
+    }
+
+.header-search-form {
+    display: inline-block;
+    overflow: hidden;
+
+    margin-top: -4px;
+
+    font: 0/0 a;
+
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    }
+
+.search-input {
+    height: 30px;
+    width: 390px;
+    padding-left: 12px;
+
+    font-size: 15px;
+
+    border: none;
+    border-right: 1px solid #eaeaea;
+    }
+
+.search-btn {
+    height: 30px;
+    padding: 0 13px;
+
+    font-size: 15px;
+
+    border: none;
+
+    background: none;
+    }
+
+.subheader {
+    border-bottom: 1px solid #eaeaea;
+    }
+
+.main-menu {
+    height: 57px;
+    }
+
+.container {
+    max-width: 936px;
+    }
+
+.grid {
+    width: 482px;
+    margin: auto;
+    }
+
+.main-menu-items {
+    font: 0/0 a;
+    }
+
+.main-menu-items > li {
+    display: inline-block;
+
+    font-size: 12.5px;
+    line-height: 55px;
+
+    height: 55px;
+    }
+
+.main-menu-items > li.active {
+    border-bottom: 2px solid #333;
+    }
+
+.main-menu-items > li + li {
+    margin-left: 40px;
+    }
+
+.main-menu-items > li > a {
+    color: #333;
+
+    text-decoration: none;
+    }
