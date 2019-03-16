@@ -33,7 +33,7 @@ body{
     }
 
 .header {
-    display: table;
+    display: flow-root;
 
     width: 100%;
 
@@ -80,12 +80,13 @@ body{
 
     vertical-align: middle;
     text-align: right;
+    padding-left: 440px;
     }
 
 .avatar {
     display: inline-block;
 
-    border: 25px solid white;
+    border: 15px solid white;
     border-radius: 100%;
 
     overflow: hidden;
@@ -171,11 +172,11 @@ body{
     border-bottom: 2px solid #333;
     }
 
-.main-menu-items > li + li {
-    margin-left: 40px;
+.main-menu-items > li{
+    margin-left: 20px;
     }
 
-.main-menu-items > li > a {
+.main-menu-items > li > a{
     color: #333;
 
     text-decoration: none;
